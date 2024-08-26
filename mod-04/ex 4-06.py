@@ -3,8 +3,6 @@ import random
 n = input('How many numbers to generate: ')
 i = 0
 nn = 0
-if int(n) < 0:
-    print('You must enter a positive number')
 
 while i <= int(n):
     x = random.uniform(-1, 1)
