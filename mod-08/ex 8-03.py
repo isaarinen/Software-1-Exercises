@@ -7,7 +7,6 @@ def get_airport_by_icao(icao):
     cursor.execute(sql)
     result = cursor.fetchall()
     if cursor.rowcount >0:
-        print(result[0])
         return result[0]
 
 connection = mysql.connector.connect(
