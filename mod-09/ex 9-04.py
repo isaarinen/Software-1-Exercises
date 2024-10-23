@@ -27,7 +27,6 @@ while race == True:
     for car in cars:
         car.accelerate(random.randint(-10, 15))
         car.drive(1)
-        print(vars(car))
         if car.trvl_dist >= 10000:
             race = False
 
